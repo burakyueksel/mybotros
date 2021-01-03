@@ -19,7 +19,7 @@ Admin of this repository and the author: Burak Y\"uksel
 source /opt/ros/<ROS-DISTRO>/setup.bash
 source ~/catkin_ws/devel/setup.bash
 ```
-* Clone this repository under the appropriate folder (e.g. under ~/catkin_ws/src):
+* Clone this repository under the appropriate folder (e.g. under ~/catkin_ws/src or a new ws e.g. ~/robot_ws/src):
 ```console
 $ git clone https://burakyuksel@bitbucket.org/burakyuksel/mybot_ros.git
 ```
@@ -34,6 +34,10 @@ $ source devel/setup.bash
 or by adding the following in ~/.bashrc:
 ```js
 source ~/catkin_ws/devel/setup.bash
+```
+or your own new workspace:
+```js
+source ~/robot_ws/devel/setup.bash
 ```
 
 ## SLAM with turtlebot3
